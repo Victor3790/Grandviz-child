@@ -1,0 +1,74 @@
+/*
+// Estilos personalizados para las páginas
+*/
+
+$golden: #c2b697;
+
+h2{
+  font-size: 30px!important;
+}
+
+.color-personalizado{
+  color: $golden;
+  margin-bottom: 50px;
+}
+
+.subscription{
+  width: 100%;
+  padding: 2%;
+  background-color: $golden;
+  overflow: hidden;
+}
+
+.subscription__text__wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+
+.subscription__text{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscription__button__wrapper{
+  width: 100%;
+  padding: 5% 30% 2% 30%;
+}
+
+.subscription__button{
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 8% 0;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.subscription__button:hover{
+  background-color: $golden;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .subscription__text__wrapper{
+    width: 60%;
+    float: left;
+  }
+
+  .subscription__button__wrapper{
+    width: 40%;
+    padding: 5% 5%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .subscription__button__wrapper{
+    padding: 2% 10%;
+  }
+}
