@@ -1,0 +1,410 @@
+.blog .site-content_wrap{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 20px;
+  background-image: url(../imgs/mainSmall.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hero__info {
+  display: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
+  .hero__info h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    color: #fff; }
+  .hero__info p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.20; }
+
+.introduction {
+  padding: 60px 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: left; }
+  .introduction h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    color: #42474c !important;
+    margin: 10% 0; }
+  .introduction p {
+    margin-top: 8%; }
+  .introduction .button__wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
+  .introduction .button__wrapper a .button{
+    width: 150px;
+  }
+
+.verticalLine {
+  width: 100%;
+  border-right: 3px solid rgba(30, 37, 47, 0.1); }
+
+.capital {
+  font-family: 'Prata', serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1em;
+  float: left;
+  margin-right: 10px;
+  color: #c2b697; }
+
+.strategy {
+  background-color: #c2b697;
+  padding: 50px 0; }
+  .strategy h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #fff; }
+
+.model {
+  color: #42474c;
+  padding: 50px 0; }
+  .model h3 {
+    width: 100%;
+    font-family: 'Prata', serif;
+    font-size: 17px;
+    line-height: 1.56;
+    font-weight: 400;
+    text-align: center; }
+  .model h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 20px; }
+    .model h2 span {
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      font-weight: 400; }
+  .model p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.70;
+    text-align: left;
+    padding: 10px; }
+  .model i {
+    width: 1em;
+    height: 1em;
+    font-weight: 900;
+    font-size: 65px;
+    color: #c2b697;
+    text-align: center;
+    display: block;
+    margin: 0 auto; }
+  .model .icon__container{
+    padding: 20px 0;
+  }
+  .model .icon__container p {
+    text-align: center; }
+
+.divider {
+  width: 70px;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.numbers {
+  padding: 50px 0;
+  background-image: url(../imgs/parada-chica.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 2.5px;
+  text-align: center; }
+  .numbers i {
+    width: 1em;
+    height: 1em;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .numbers span {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 5%; }
+  .numbers .numbers__item {
+    margin-bottom: 8%; }
+
+.customer-strategy {
+  padding: 50px 0; }
+  .customer-strategy h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #42474c; }
+  .customer-strategy p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.70;
+    text-align: left;
+    padding: 20px; }
+
+.customer-strategy__item {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  margin-bottom: 30px;
+  cursor: pointer;}
+  .customer-strategy__item h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 23px; }
+  .customer-strategy__item p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px; }
+
+  #customer-strategy__item-1{
+    background-image: url(../imgs/gestionSmall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #customer-strategy__item-2{
+    background-image: url(../imgs/recomendarSmall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #customer-strategy__item-3{
+    background-image: url(../imgs/experienceSmall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #customer-strategy__item-4{
+    background-image: url(../imgs/segmentacionSmall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.customer-strategy__item--hover {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(137, 146, 150, 0.45);
+  opacity: 0;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+
+.customer-strategy__item--hover:hover {
+  opacity: 1; }
+
+.subscribe {
+  background-color: #c2b697;
+  color: #fff;
+  padding: 50px 0; }
+  .subscribe h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #fff; }
+  .subscribe i {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;}
+
+  .site-footer{
+    padding: 0;
+  }
+
+@media screen and (min-width: 576px) {
+  .strategy {
+    padding: 20px 0; }
+    .strategy h2 {
+      text-align: left; } }
+
+@media screen and (min-width: 768px) {
+  .site-header{
+    position: absolute;
+  }
+
+  .header-container{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    z-index: 2 !important;
+  }
+
+  .main-navigation .menu > li > a{
+    color: #fff !important;
+  }
+  .search-form__toggle{
+    color: #fff !important;
+  }
+  .hero {
+    background-image: url(../imgs/main.jpg);
+    min-height: 500px;
+    height: 95vh;}
+  .hero__info {
+    display: block;
+    width: 100%; }
+  .introduction {
+    padding: 40px 30px; }
+    .introduction p {
+      margin-top: 0; }
+  .columns {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2; }
+
+  .numbers {
+    background-image: url(../imgs/parada.jpg); }
+  .customer-strategy__item {
+    height: 220px; }
+
+    #customer-strategy__item-1{
+      background-image: url(../imgs/gestionMed.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #customer-strategy__item-2{
+      background-image: url(../imgs/recomendarMed.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #customer-strategy__item-3{
+      background-image: url(../imgs/experienceMed.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #customer-strategy__item-4{
+      background-image: url(../imgs/segmentacionMed.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+@media screen and (min-width: 992px) {
+  .hero {
+    min-height: 600px;
+    height: 95vh; }
+
+  .introduction{
+    padding: 100px 0;
+  }
+  .strategy{
+    padding: 50px 0;
+  }
+  .model .icon__container p {
+    font-size: 16px;
+    line-height: 1.5; }
+
+    .customer-strategy__item {
+      height: 270px; }
+
+      #customer-strategy__item-1{
+        background-image: url(../imgs/gestionLg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-2{
+        background-image: url(../imgs/recomendarLg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-3{
+        background-image: url(../imgs/experienceLg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-4{
+        background-image: url(../imgs/segmentacionLg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    min-height: 700px;
+    height: 95vh;}
+
+    .customer-strategy__item {
+      height: 250px; }
+
+      #customer-strategy__item-1{
+        background-image: url(../imgs/gestionXl.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-2{
+        background-image: url(../imgs/recomendarXl.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-3{
+        background-image: url(../imgs/experienceXl.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      #customer-strategy__item-4{
+        background-image: url(../imgs/segmentacionXl.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+  }

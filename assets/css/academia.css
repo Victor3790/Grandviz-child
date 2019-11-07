@@ -1,0 +1,36 @@
+body{
+  min-width: 400px !important;
+}
+.lesson {
+  max-width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.lesson__info {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #54595f;
+  color: #fff;
+  padding: 30px 25px; }
+  .lesson__info h4 {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.33;
+    text-align: center; }
+  .lesson__info p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0; }
+  .lesson__info .button__wrapper .button p {
+    font-weight: 700; }
+
+@media screen and ('min-width: 768px'){
+  .lesson{
+    margin: 30px 0 0 0;
+  }
+}

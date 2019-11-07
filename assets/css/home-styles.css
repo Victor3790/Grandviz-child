@@ -1,0 +1,125 @@
+/*
+//
+//  Css styles for the post list section in home
+//
+*/
+.animation{
+  opacity: 0;
+				-webkit-transform: scale(0.9);
+					 -moz-transform: scale(0.9);
+						-ms-transform: scale(0.9);
+						 -o-transform: scale(0.9);
+								transform: scale(0.9);
+				-webkit-transition: all 1s ease-in-out;
+					 -moz-transition: all 1s ease-in-out;
+						-ms-transition: all 1s ease-in-out;
+						 -o-transition: all 1s ease-in-out;
+								transition: all 1s ease-in-out;
+}
+
+.animation.visible{
+  opacity: 1;
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
+
+.article-container--custom{
+  padding: 35px;
+}
+
+.article-container--custom h2{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.posts-list__item--custom{
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+  transition-duration: .25s;
+  margin-bottom: 35px;
+}
+
+.posts-list__item--custom:hover{
+  -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.20);
+}
+
+.posts-list__item__main--custom, footer{
+  padding: 5% 10%;
+}
+
+.entry-header--custom{
+  margin-bottom: 25px;
+}
+
+.entry-header--custom h3, .entry-header--custom h4{
+  font-family: Lato, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #42474c;
+}
+
+.entry-content--custom {
+  margin-bottom: 25px;
+}
+
+.entry-content--custom p{
+  line-height: 1.5em;
+  font-size: 14px;
+  color: #777;
+}
+
+.entry-footer--custom{
+  border-top: 1px solid #eaeaea;
+}
+
+.entry-footer--custom a{
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  color: #adadad;
+}
+
+@media screen and (min-width:768px){
+  .article-container--custom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .posts-list__item--custom{
+    width: 45%;
+    margin: 15px;
+  }
+
+  .posts-list__item__main--custom, footer{
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (min-width:992px){
+  .posts-list__item--custom{
+    width: 31%;
+    margin: 10px;
+  }
+
+  .posts-list__item__main--custom, footer{
+    padding: 8% 12%;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .strategy__img-container--custom{
+    width: 23%;
+    margin: 10px;
+  }
+
+  .posts-list__item__main--custom, footer{
+    padding: 5% 10%;
+  }
+}
