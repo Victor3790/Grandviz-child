@@ -14,19 +14,19 @@
 
 			<header class="entry-header--custom">
 				<?php
-					grandviz_get_template_part( 'template-parts/post/post-components/post-title' );
+					get_template_part( 'template-parts/post/post-components/post-title' );
 				?>
 			</header><!-- .entry-header -->
 
 			<div class="entry-content--custom">
 				<?php
-					grandviz_get_template_part( 'template-parts/post/post-components/post-content' );
+					get_template_part( 'template-parts/post/post-components/post-content' );
 				?>
 			</div><!-- .entry-content -->
 
 			<div class="read-more--custom">
 				<?php
-					grandviz_get_template_part( 'template-parts/post/post-components/post-button' );
+					get_template_part( 'template-parts/post/post-components/post-button' );
 				?>
 			</div><!-- .read-more-custom-->
 
@@ -34,6 +34,6 @@
 	</div>
 
 	<footer class="entry-footer--custom">
-		<?php grandviz_get_template_part( 'template-parts/post/post-meta/content-meta-date' ); ?>
+		<?php get_template_part( 'template-parts/post/post-meta/content-meta-date' ); ?>
 	</footer><!-- .entry-footer-custom -->
 </article><!-- #post-## -->

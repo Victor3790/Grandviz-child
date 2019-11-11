@@ -1,9 +1,21 @@
 <?php
-	$attachment_id = block_value( 'heroImage' );
-	$smallImage =  wp_get_attachment_image_src( $attachment_id, 'home-hero' );
+	$heroImageId = block_value( 'heroImage' );
+	$smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
+	$largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );
 ?>
+<style media="screen">
+	.hero{
+		background-image: url(<?php echo $smallHeroImage[0]; ?>);
+	}
 
-<div class="hero" style="background-image: url(<?php echo $smallImage[0]; ?>);">
+	@media (min-width: 768px){
+		.hero{
+			background-image: url(<?php echo $largeHeroImage[0]; ?>);
+		}
+	}
+</style>
+
+<div class="hero">
 	<div class="hero__info">
 		<div class="container">
 			<div class="row">

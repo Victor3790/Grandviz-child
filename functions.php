@@ -25,7 +25,8 @@
 
   function add_child_theme_support(){
      add_post_type_support( 'page', 'excerpt' );
-     add_image_size( 'home-hero', 1700, 700, true );
+     add_image_size( 'home-hero-large', 1700, 700, true );
+     add_image_size( 'home-hero-small', 870, 700, true);
   }
 
   add_action('init', 'add_child_theme_support');
