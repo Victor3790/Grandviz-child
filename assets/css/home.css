@@ -18,7 +18,7 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 20px;
-  background-image: url(../imgs/mainSmall.jpg);
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -288,7 +288,7 @@
     color: #fff !important;
   }
   .hero {
-    background-image: url(../imgs/main.jpg);
+
     min-height: 500px;
     height: 95vh;}
   .hero__info {

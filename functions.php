@@ -23,10 +23,11 @@
     }*/
   }
 
-  function add_excerpt(){
+  function add_child_theme_support(){
      add_post_type_support( 'page', 'excerpt' );
+     add_image_size( 'home-hero', 1700, 700, true );
   }
 
-  add_action('init', 'add_excerpt');
+  add_action('init', 'add_child_theme_support');
 
   add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles', 1);
