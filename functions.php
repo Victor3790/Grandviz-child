@@ -29,6 +29,24 @@
      add_image_size( 'home-hero-small', 870, 700, true);
   }
 
+
+  function add_styles(){
+    /*$heroImageId = block_value( 'heroImage' );
+    $smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
+    $largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );*/
+    if(is_front_page()){
+      ?>
+      <style type="text/css">
+        #page{
+          background-color: #000;
+        }
+      </style>
+      <?php
+    }
+  }
+
   add_action('init', 'add_child_theme_support');
 
   add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles', 1);
+
+  add_action('wp_head', 'add_styles');

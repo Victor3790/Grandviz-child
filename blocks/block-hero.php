@@ -1,7 +1,5 @@
 <?php
-	$heroImageId = block_value( 'heroImage' );
-	$smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
-	$largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );
+	echo add_styles();
 ?>
 <style media="screen">
 	.hero{
