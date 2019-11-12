@@ -31,15 +31,21 @@
 
 
   function add_styles(){
-    /*$heroImageId = block_value( 'heroImage' );
-    $smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
-    $largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );*/
     if(is_front_page()){
+      $heroImageId = get_field( 'imagen' );
+      $smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
+      $largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );
       ?>
       <style type="text/css">
-        #page{
-          background-color: #000;
-        }
+        .hero{
+      		background-image: url(<?php echo $smallHeroImage[0]; ?>);
+      	}
+
+      	@media (min-width: 768px){
+      		.hero{
+      			background-image: url(<?php echo $largeHeroImage[0]; ?>);
+      		}
+      	}
       </style>
       <?php
     }
