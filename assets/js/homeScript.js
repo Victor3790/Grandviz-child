@@ -1,4 +1,11 @@
 jQuery(document).ready(function ($) {
+  var numbers = $(".hiddenNumber");
+
+  var num1 = numbers[0].innerText;
+  var num2 = numbers[1].innerText;
+  var num3 = numbers[2].innerText;
+  var num4 = numbers[3].innerText;
+
     // init controller
   var controller = new ScrollMagic.Controller();
 
@@ -12,7 +19,7 @@ jQuery(document).ready(function ($) {
     //.addIndicators() // add indicators (requires plugin)
     .on("start", function (e) {
       $("#num1").numScroll({
-        number: 75
+        number: num1
       });
     })
 
@@ -25,7 +32,7 @@ jQuery(document).ready(function ($) {
       //.addIndicators() // add indicators (requires plugin)
       .on("start", function (e) {
         $("#num2").numScroll({
-          number: 50
+          number: num2
         });
       })
 
@@ -38,7 +45,7 @@ jQuery(document).ready(function ($) {
       //.addIndicators() // add indicators (requires plugin)
       .on("start", function (e) {
         $("#num3").numScroll({
-          number: 40
+          number: num3
       });
     })
 
@@ -51,7 +58,7 @@ jQuery(document).ready(function ($) {
       //.addIndicators() // add indicators (requires plugin)
       .on("start", function (e) {
         $("#num4").numScroll({
-          number: 67
+          number: num4
       });
     })
 });

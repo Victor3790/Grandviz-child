@@ -141,7 +141,6 @@
 
 .numbers {
   padding: 50px 0;
-  background-image: url(../imgs/parada-chica.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,6 +152,9 @@
   line-height: 20px;
   letter-spacing: 2.5px;
   text-align: center; }
+  .hiddenNumber{
+    display: none;
+  }
   .numbers i {
     width: 1em;
     height: 1em;
@@ -303,8 +305,6 @@
        -moz-column-count: 2;
             column-count: 2; }
 
-  .numbers {
-    background-image: url(../imgs/parada.jpg); }
   .customer-strategy__item {
     height: 220px; }
 

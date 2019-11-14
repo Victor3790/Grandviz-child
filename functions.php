@@ -27,24 +27,37 @@
      add_post_type_support( 'page', 'excerpt' );
      add_image_size( 'home-hero-large', 1700, 700, true );
      add_image_size( 'home-hero-small', 870, 700, true);
+     add_image_size( 'percentage-small', 680, 1100, true);
   }
 
 
-  function add_styles(){
+  function add_home_styles(){
     if(is_front_page()){
-      $heroImageId = get_field( 'imagen' );
+      $heroImageId = get_field( 'fondo_seccion_principal' );
+      $percentageImageId = get_field( 'fondo_seccion_porcentages' );
+
       $smallHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-small' );
       $largeHeroImage =  wp_get_attachment_image_src( $heroImageId, 'home-hero-large' );
+
+      $smallPercentageImage = wp_get_attachment_image_src( $percentageImageId, 'percentage-small' );
+      $largePercentageImage = wp_get_attachment_image_src( $percentageImageId, 'home-hero-large');
       ?>
       <style type="text/css">
         .hero{
       		background-image: url(<?php echo $smallHeroImage[0]; ?>);
       	}
 
+        .numbers{
+          background-image: url(<?php echo $smallPercentageImage[0]; ?>);
+        }
+
       	@media (min-width: 768px){
       		.hero{
       			background-image: url(<?php echo $largeHeroImage[0]; ?>);
       		}
+          .numbers{
+            background-image: url(<?php echo $largePercentageImage[0]; ?>);
+          }
       	}
       </style>
       <?php
@@ -55,4 +68,4 @@
 
   add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles', 1);
 
-  add_action('wp_head', 'add_styles');
+  add_action('wp_head', 'add_home_styles');
