@@ -9,9 +9,9 @@
       </div>
       <div class="col-xs-12 col-md-4">
         <div class="button__wrapper">
-          <a href="https://elviajedelcliente.com/elements/suscripcion/">
+          <a href="<?php block_field('link') ?>">
             <div class="button button--white">
-              <p>SUSCRÍBETE YA</p>
+              <p><?php block_field('boton') ?></p>
             </div>
           </a>
         </div>

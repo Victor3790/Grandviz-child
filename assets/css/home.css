@@ -162,7 +162,8 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+  }
   .numbers span {
     font-family: 'Prata', serif;
     font-size: 48px;
@@ -203,25 +204,21 @@
     font-size: 13px; }
 
   #customer-strategy__item-1{
-    background-image: url(../imgs/gestionSmall.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
 
   #customer-strategy__item-2{
-    background-image: url(../imgs/recomendarSmall.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
 
   #customer-strategy__item-3{
-    background-image: url(../imgs/experienceSmall.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
 
   #customer-strategy__item-4{
-    background-image: url(../imgs/segmentacionSmall.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -309,25 +306,21 @@
     height: 220px; }
 
     #customer-strategy__item-1{
-      background-image: url(../imgs/gestionMed.jpg);
       background-position: center;
       background-repeat: no-repeat;
     }
 
     #customer-strategy__item-2{
-      background-image: url(../imgs/recomendarMed.jpg);
       background-position: center;
       background-repeat: no-repeat;
     }
 
     #customer-strategy__item-3{
-      background-image: url(../imgs/experienceMed.jpg);
       background-position: center;
       background-repeat: no-repeat;
     }
 
     #customer-strategy__item-4{
-      background-image: url(../imgs/segmentacionMed.jpg);
       background-position: center;
       background-repeat: no-repeat;
     }
@@ -352,25 +345,21 @@
       height: 270px; }
 
       #customer-strategy__item-1{
-        background-image: url(../imgs/gestionLg.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-2{
-        background-image: url(../imgs/recomendarLg.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-3{
-        background-image: url(../imgs/experienceLg.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-4{
-        background-image: url(../imgs/segmentacionLg.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
@@ -385,25 +374,21 @@
       height: 250px; }
 
       #customer-strategy__item-1{
-        background-image: url(../imgs/gestionXl.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-2{
-        background-image: url(../imgs/recomendarXl.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-3{
-        background-image: url(../imgs/experienceXl.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }
 
       #customer-strategy__item-4{
-        background-image: url(../imgs/segmentacionXl.jpg);
         background-position: center;
         background-repeat: no-repeat;
       }

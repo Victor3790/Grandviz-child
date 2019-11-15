@@ -250,11 +250,9 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8">
-          <h2>¿Quieres formar parte de la comunidad <i>el viaje del cliente</i>?</h2>
+          <h2><?php echo get_field('titulo_suscripcion'); ?></h2>
           <p>
-            Esta web tiene el objetivo de compartir conocimiento con todos
-            aquellos interesados en estrategias de orientación al cliente,
-            customer experience y servicio al cliente
+						<?php echo get_field('texto_suscripcion'); ?>
           </p>
         </div>
         <div class="col-xs-12 col-md-4">
