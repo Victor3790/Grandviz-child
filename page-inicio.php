@@ -51,15 +51,6 @@
 				</p>
 			</div>
 
-
-			<div class="button__wrapper">
-				<a href="<?php echo get_field('link_boton_introduccion'); ?>">
-					<div class="button button--golden">
-						<p><?php echo get_field('boton_introduccion'); ?></p>
-					</div>
-				</a>
-			</div>
-
 		</div>
 	</div>
 </div>
@@ -87,8 +78,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<h3>Enfoque del viaje del cliente</h3>
-				<h2><?php echo get_field('titulo_seccion_dos'); ?></span></h2>
+				<h3><?php echo get_field('pre_titulo_seccion_dos'); ?></h3>
+				<h2><?php echo get_field('titulo_seccion_dos'); ?></h2>
 				<div class="divider"></div>
 				<p>
 					<?php echo get_field('texto_seccion_dos'); ?>
@@ -239,7 +230,7 @@
 <div id="article-container" class="container">
 	<div class="row">
 		<div class="content__container--custom article-container--custom">
-			<h2>Últimos artículos publicados</h2>
+			<h2><?php echo get_field('titulo_posts'); ?></h2>
 			<?php echo do_shortcode("[ic_add_posts post_type='post' showposts='6' template='content.php' ignore_sticky_posts='no']"); ?>
 		</div>
 	</div>
