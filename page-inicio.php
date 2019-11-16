@@ -47,7 +47,8 @@
 			</div>
 			<div class="columns col-xs-12 col-lg-9">
 				<p>
-					<span class="capital">E</span><?php echo get_field('texto_introduccion'); ?>
+					<span class="capital"><?php echo substr(get_field('texto_introduccion'), 0, 1); ?></span>
+					<?php echo substr(get_field('texto_introduccion'), 1); ?>
 				</p>
 			</div>
 
