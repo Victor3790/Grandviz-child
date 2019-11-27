@@ -82,7 +82,7 @@
 				<h3><?php echo get_field('pre_titulo_seccion_dos'); ?></h3>
 				<h2><?php echo get_field('titulo_seccion_dos'); ?></h2>
 				<div class="divider"></div>
-				<p>
+				<p class="text">
 					<?php echo get_field('texto_seccion_dos'); ?>
 				</p>
 			</div>
@@ -90,7 +90,9 @@
 				<div class="row">
 					<div class="icon__container col-xs-12 col-lg-3">
 						<i aria-hidden="true" class="fas iconsmind iconsmind-internet"></i>
-						<h2><?php echo get_field('titulo_asset_4'); ?></h2>
+						<a href="<?php echo get_field('link_asset_4'); ?>">
+							<h2><?php echo get_field('titulo_asset_4'); ?></h2>
+						</a>
 						<p>
 							<?php echo get_field('texto_asset_4'); ?>
 						</p>
@@ -98,7 +100,9 @@
 
 					<div class="icon__container col-xs-12 col-lg-3">
 						<i aria-hidden="true" class="fas iconsmind iconsmind-cube-molecule-2"></i>
-						<h2><?php echo get_field('titulo_asset_5'); ?></h2>
+						<a href="<?php echo get_field('link_asset_5'); ?>">
+							<h2><?php echo get_field('titulo_asset_5'); ?></h2>
+						</a>
 						<p>
 							<?php echo get_field('texto_asset_5'); ?>
 						</p>
@@ -106,7 +110,9 @@
 
 					<div class="icon__container col-xs-12 col-lg-3">
 						<i aria-hidden="true" class="fas iconsmind iconsmind-heart-1"></i>
-						<h2><?php echo get_field('titulo_asset_6'); ?></h2>
+						<a href="<?php echo get_field('link_asset_6'); ?>">
+							<h2><?php echo get_field('titulo_asset_6'); ?></h2>
+						</a>
 						<p>
 							<?php echo get_field('texto_asset_6'); ?>
 						</p>
@@ -114,7 +120,9 @@
 
 					<div class="icon__container col-xs-12 col-lg-3">
 						<i aria-hidden="true" class="fas iconsmind iconsmind-diamond"></i>
-						<h2><?php echo get_field('titulo_asset_7'); ?></h2>
+						<a href="<?php echo get_field('link_asset_7'); ?>">
+							<h2><?php echo get_field('titulo_asset_7'); ?></h2>
+						</a>
 						<p>
 							<?php echo get_field('texto_asset_7'); ?>
 						</p>
@@ -232,7 +240,7 @@
 	<div class="row">
 		<div class="content__container--custom article-container--custom">
 			<h2><?php echo get_field('titulo_posts'); ?></h2>
-			<?php echo do_shortcode("[ic_add_posts post_type='post' showposts='6' template='content.php' ignore_sticky_posts='no']"); ?>
+			<?php echo do_shortcode("[ic_add_posts post_type='post' showposts='5' template='content.php' ignore_sticky_posts='no']"); ?>
 		</div>
 	</div>
 </div>

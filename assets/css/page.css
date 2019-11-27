@@ -50,4 +50,9 @@ h3{
         color: #fff; }
       .subscribe i {
         font-family: 'Libre Baskerville', serif;
-        font-weight: 300;}
+        font-weight: 300;
+      }
+      .subscribe p{
+        text-align: center;
+        margin-bottom: 30px;
+      }
