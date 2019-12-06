@@ -1,0 +1,73 @@
+.subscribe {
+  background-color: #c2b697;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 45px;}
+  .subscribe h2 {
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px!important;}
+  .subscribe i {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+  }
+  .subscribe p{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .subscribe__field-container{
+    margin:0;
+    padding: 0;
+    border: 0;
+  }
+
+  .subscribe__form-name{
+    display: none;
+  }
+
+  .subscribe__text-input-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .subscribe__text-input-label{
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .subscribe__text-input{
+    width: 50%;
+    height: 30px;
+  }
+
+  .subscribe__checkbox-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .subscribe__checkbox-text{
+    text-align: center;
+  }
+
+  .subscribe__checkbox-option{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .subscribe__checkbox{
+    transform: scale(1.5);
+    margin-right: 10px;
+  }
+
+  .subscribe__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }

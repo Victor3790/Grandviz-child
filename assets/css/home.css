@@ -132,6 +132,7 @@
     padding: 20px 0;
   }
   .model .icon__container p {
+    padding: 0 15px;
     text-align: center; }
 
 .divider {
@@ -252,18 +253,6 @@
 
 .customer-strategy__item--hover:hover {
   opacity: 1; }
-
-.subscribe {
-  background-color: #c2b697;
-  color: #fff;
-  padding: 50px 0; }
-  .subscribe h2 {
-    font-size: 28px;
-    text-align: left;
-    color: #fff; }
-  .subscribe i {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 300;}
 
   .site-footer{
     padding: 0;

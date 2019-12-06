@@ -20,7 +20,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer; }
@@ -39,20 +39,3 @@ h3{
   .button--white {
     background-color: #fff;
     color: #000; }
-
-    .subscribe {
-      background-color: #c2b697;
-      color: #fff;
-      padding: 50px 0; }
-      .subscribe h2 {
-        font-size: 28px;
-        text-align: center;
-        color: #fff; }
-      .subscribe i {
-        font-family: 'Libre Baskerville', serif;
-        font-weight: 300;
-      }
-      .subscribe p{
-        text-align: center;
-        margin-bottom: 30px;
-      }

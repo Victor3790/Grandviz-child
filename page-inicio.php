@@ -89,7 +89,7 @@
 			<div class="col-xs-12">
 				<div class="row">
 					<div class="icon__container col-xs-12 col-lg-3">
-						<i aria-hidden="true" class="fas iconsmind iconsmind-internet"></i>
+						<i aria-hidden="true" class="fas iconsmind iconsmind-cube-molecule-2"></i>
 						<a href="<?php echo get_field('link_asset_4'); ?>">
 							<h2><?php echo get_field('titulo_asset_4'); ?></h2>
 						</a>
@@ -99,7 +99,7 @@
 					</div>
 
 					<div class="icon__container col-xs-12 col-lg-3">
-						<i aria-hidden="true" class="fas iconsmind iconsmind-cube-molecule-2"></i>
+						<i class="fa fa-bullhorn" aria-hidden="true"></i>
 						<a href="<?php echo get_field('link_asset_5'); ?>">
 							<h2><?php echo get_field('titulo_asset_5'); ?></h2>
 						</a>
@@ -109,7 +109,7 @@
 					</div>
 
 					<div class="icon__container col-xs-12 col-lg-3">
-						<i aria-hidden="true" class="fas iconsmind iconsmind-heart-1"></i>
+						<i class="fa fa-bullseye" aria-hidden="true"></i>
 						<a href="<?php echo get_field('link_asset_6'); ?>">
 							<h2><?php echo get_field('titulo_asset_6'); ?></h2>
 						</a>
@@ -119,7 +119,7 @@
 					</div>
 
 					<div class="icon__container col-xs-12 col-lg-3">
-						<i aria-hidden="true" class="fas iconsmind iconsmind-diamond"></i>
+						<i aria-hidden="true" class="fas iconsmind iconsmind-heart-1"></i>
 						<a href="<?php echo get_field('link_asset_7'); ?>">
 							<h2><?php echo get_field('titulo_asset_7'); ?></h2>
 						</a>
@@ -246,24 +246,58 @@
 </div>
 
 
-  <div class="subscribe">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8">
-          <h2><?php echo get_field('titulo_suscripcion'); ?></h2>
-          <p>
-						<?php echo get_field('texto_suscripcion'); ?>
-          </p>
+<div class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2><?php echo get_field('header'); ?></h2>
+        <p>
+          <?php echo get_field('texto'); ?>
+        </p>
+      </div>
+      <div class="col-xs-12">
+
+        <form id="agile-form" style="width:100%;" data-nonce="<?php echo $nonce; ?>">
+					<?php $nonce = wp_create_nonce('g_child_nonce'); ?>
+        	<fieldset class="subscribe__field-container">
+
+					<input type="hidden" name="action" value="g_child_subscription">
+					<input type="hidden" name="nonce" value="<?php echo $nonce; ?>">
+
+        <!-- Text input-->
+        <div class="subscribe__text-input-container">
+          <label class="subscribe__text-input-label" for="agilefield-2">Email</label>
+          <input class="subscribe__text-input" id="agilefield-2" name="email" type="text" placeholder="" class="agile-height-default">
         </div>
-        <div class="col-xs-12 col-md-4">
-          <div class="button__wrapper">
-						<a href="https://elviajedelcliente.com/elements/suscripcion/">
-							<div class="button button--white">
-								<p>SUSCRÍBETE YA</p>
-							</div>
-						</a>
+
+				<!-- Multiple Checkboxes -->
+				<div class="agile-group agile-form-inlinecheckboxes">
+				  <label class="agile-label" for="multiple_checkboxes_1574880659532">He leído y acepto <a href="https://elviajedelcliente.com/politica-de-privacidad/">la política de privacidad y cookies</a><span class="agile-span-asterisk"> *</span></label>
+				  <div class="agile-field agile-field-xlarge agile-height-default">
+				    <div>
+				    <label for="multiple_checkboxes_1574880659532-0" class="i-checks">
+				      <input type="checkbox" name="multiple_checkboxes_1574880659532-0" id="multiple_checkboxes_1574880659532-0" value="Acepto"><i></i>
+				      Acepto
+				    </label>
+				    </div>
+
+        <!-- Button -->
+        <div class="subscribe__button">
+          <label>&nbsp;</label>
+          <div>
+            <button id="subscribe" style="padding: 10px 20px;" type="submit" class="button--white">Suscribirse</button>
+            <br><span id="agile-error-msg"></span>
           </div>
         </div>
+
+        </fieldset>
+        </form>
+
+				<div id="result">
+
+				</div>
+
       </div>
     </div>
   </div>
+</div>
