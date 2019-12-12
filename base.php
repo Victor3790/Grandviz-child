@@ -31,6 +31,8 @@
 
 	</div><!-- .site-content_wrap -->
 
+	<?php load_template( get_theme_file_path('template-parts/popUp-form.php')); ?>
+
 	<?php do_action( 'grandviz_render_widget_area', 'after-content-full-width-area' ); ?>
 
 <?php get_footer( grandviz_template_base() ); ?>

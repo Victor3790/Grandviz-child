@@ -18,11 +18,9 @@ function g_child_enqueue() {
   //Enqueue styles and scripts conditionally
   wp_enqueue_style('parent-styles');
   wp_enqueue_style('page-styles');
+  wp_enqueue_style('subscribe');
+  wp_enqueue_script('subscription');
 
-  if(is_page()){
-    wp_enqueue_style('subscribe');
-    wp_enqueue_script('subscription');
-  }
 
   if(is_page('inicio')){
     wp_enqueue_style('home-styles-1');
@@ -34,7 +32,7 @@ function g_child_enqueue() {
 
   if(is_page('academia')){
     wp_dequeue_style( 'subscribe');
-    wp_dequeue_style( 'subscription');
+    wp_dequeue_script( 'subscription');
     wp_enqueue_style('academia');
   }
 
