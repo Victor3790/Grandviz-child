@@ -256,7 +256,7 @@
         </p>
       </div>
       <div class="col-xs-12">
-				<?php load_template( get_theme_file_path('template-parts/footer-form.php')); ?>
+				<?php //load_template( get_theme_file_path('template-parts/footer-form.php')); ?>
       </div>
     </div>
   </div>
